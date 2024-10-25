@@ -1,0 +1,34 @@
+* Starting Entropy: 0.9968038285222957
+* odor (information gain: 0.9054400254210329)
+  * ALMOND --> EDIBLE
+  * ANISE --> EDIBLE
+  * PUNGENT --> POISONOUS
+  * CREOSOTE --> POISONOUS
+  * FOUL --> POISONOUS
+  * FISHY --> POISONOUS
+  * SPICY --> POISONOUS
+  * MUSTY --> POISONOUS
+  * NONE (with current entropy 0.20192168248430362)
+    * spore-print-color (information gain: 0.1370967382781343)
+      * BLACK --> EDIBLE
+      * BROWN --> EDIBLE
+      * CHOCOLATE --> EDIBLE
+      * GREEN --> POISONOUS
+      * YELLOW --> EDIBLE
+      * ORANGE --> EDIBLE
+      * BUFF --> EDIBLE
+      * WHITE (with current entropy 0.3809465857053901)
+        * habitat (information gain: 0.2434890145144485)
+          * WASTE --> EDIBLE
+          * GRASSES --> EDIBLE
+          * PATHS --> EDIBLE
+          * LEAVES (with current entropy 0.6840384356390417)
+            * cap-color (information gain: 0.6840384356390417)
+              * BROWN --> EDIBLE
+              * CINNAMON --> EDIBLE
+              * WHITE --> POISONOUS
+              * YELLOW --> POISONOUS
+          * WOODS (with current entropy 0.7219280948873623)
+            * gill-size (information gain: 0.7219280948873623)
+              * NARROW --> POISONOUS
+              * BROAD --> EDIBLE
